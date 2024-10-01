@@ -1,0 +1,118 @@
+
+@import url(https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900);
+
+
+
+
+
+
+body {
+    background-color:#7f4ca5 ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+
+h1 {
+    color:#fff0ff ;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400; 
+    font-size: 4rem; /* Tamanho da fonte */
+    text-align: center;
+    
+}
+.titulo0
+{
+    color:#fff0ff ;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400; 
+    font-size: 4rem; /* Tamanho da fonte */
+    text-align: ;
+}
+
+
+}
+.titulo1 {
+    color:#fff0ff ;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500; 
+    font-size: 5rem; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    
+}
+
+p {
+    color:#dbb6ee;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /
+    font-size: 3rem; 
+    align-items: center;
+
+}
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+
+
+
+button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+
+
+}
+ 
+.botoes{
+    display: flex;
+    flex-wrap: wrap
+    justify-content:
+
+    
+
+}
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input {
+    margin: 0.6rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover {
+    background: #eeeeee75;
+}
+.input-box input:focus-visible {
+    outline: 1px solid #5b5b58
+}
+.input-box label  { 
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.input-box input::placeholder {
+    color: #000000be;
+}
