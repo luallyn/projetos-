@@ -33,36 +33,42 @@ h1 {
     color:#fff0ff ;
     font-family: 'Inter',sans-serif;
     font-weight: 400; 
-    font-size: 4rem; /* Tamanho da fonte */
+    font-size: 4rem; 
     text-align: ;
 }
-
-
-}
-.titulo1 {
-    color:#fff0ff ;
-    font-family: 'Inter',sans-serif;
-    font-weight: 500; 
-    font-size: 5rem; /* Tamanho da fonte */
-    text-align: center; /* Alinha o texto ao centro */
-    
-}
-
 p {
     color:#dbb6ee;
     font-family: 'Inter', sans-serif;
     font-weight: 400; /
     font-size: 3rem; 
-    align-items: center;
+    align-items: center;  }
+
+
+.titulo1 {
+    color:#fff0ff ;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500; 
+    font-size: 5rem; /* Tamanho da fonte */
+    text-align: right; /* Alinha o texto ao centro */
 
 }
- .container{
+.img {
+    width: 50%;
+    max-width: 100%;
+    height:auto;
+}
+ .container
+ {
     display: flex;
-    justify-content: center;
+    justify-content: space-between
+
+}
+
+.texto-botoes {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-     }
-
-
+}
 
 button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
@@ -78,8 +84,8 @@ button {
  
 .botoes{
     display: flex;
-    flex-wrap: wrap
-    justify-content:
+    justify-content:flex-end;
+    gap: 7px;
 
     
 
@@ -116,3 +122,4 @@ button {
 .input-box input::placeholder {
     color: #000000be;
 }
+
